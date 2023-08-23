@@ -37,8 +37,8 @@ const NumberManager = () => {
   };
 
   return (
-    <div>
-      <button onClick={fetchNumbers}>Fetch Numbers</button>
+    <div style={{backgroundColor:'#2A2A2A', color:'yellow', height:'100vh', width:'100%', display:'flex', flexDirection:'column',  justifyContent:'center',alignItems:'center'}}>
+      <button style={{width:"150px",height:'40px', borderRadius:'10px', backgroundColor:'#1A1A1A', color:'yellow', border:'none', boxShadow:"inherit", cursor:'pointer'}} onClick={fetchNumbers}>Fetch Numbers</button>
       <div>
         <h2>Output</h2>
         <pre>
