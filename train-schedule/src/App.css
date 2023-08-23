@@ -1,0 +1,25 @@
+.train-schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.train-table {
+  width: 80%;
+  margin: 0 auto; 
+}
+.train-table tr:nth-child(odd) {
+  background-color: rgb(187, 181, 181);
+  text-align: center;
+}
+
+.train-table tr:nth-child(even) {
+  background-color: rgb(129, 205, 247);
+  text-align: center;
+}
+
+.train-table th, .train-table td {
+  /* padding: 8px 12px; */
+  border: none;
+}
