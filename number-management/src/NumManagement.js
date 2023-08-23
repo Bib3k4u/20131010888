@@ -39,10 +39,10 @@ const NumberManager = () => {
   return (
     <div style={{backgroundColor:'#2A2A2A', color:'yellow', height:'100vh', width:'100%', display:'flex', flexDirection:'column',  justifyContent:'center',alignItems:'center'}}>
       <button style={{width:"150px",height:'40px', borderRadius:'10px', backgroundColor:'#1A1A1A', color:'yellow', border:'none', boxShadow:"inherit", cursor:'pointer'}} onClick={fetchNumbers}>Fetch Numbers</button>
-      <div>
+      <div style={{width:'50%'}}>
         <h2>Output</h2>
         <pre>
-          {JSON.stringify({ Numbers: numbers }, null, 2)}
+          {"{"} "Numbers": {JSON.stringify(numbers)}, {"}"}
         </pre>
       </div>
     </div>
